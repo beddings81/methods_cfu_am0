@@ -21,23 +21,26 @@ custom_greeting("Braxton")
 
 
 #3: Write a method named square that takes in one number, and returns the square of that number
-def square(n)
-  n * n
+def square(num1)
+  num1 * num1
 end
 
-square(8)
+square(4)
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? 16
+# How many arguments did you pass your method? 1
+# What data type was your argument(s)? Integer
 
 
 
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
+def greet_person(first = "Braxton", middle = "Marquise", last = "Eddings")
+  puts "Hello, #{first} #{middle} #{last}!"
+end
 
+greet_person
 
-
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# What is the return value of your method? "Hello, Braxton Marquise Eddings!"
+# How many arguments did you pass your method? 3
+# What data type was your argument(s)? string objects
